@@ -5,7 +5,7 @@ import pygame
 from rsettings import Rsettings
 from rocket import Rocket
 
-class BlueSky:
+class Rocket:
 
     def __init__(self):
         pygame.init()
@@ -69,5 +69,5 @@ class BlueSky:
         pygame.display.flip()
 
 if __name__ == '__main__':
-    ai = BlueSky()
+    ai = Rocket()
     ai.run_game()
